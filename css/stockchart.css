@@ -1,0 +1,14 @@
+.chart-container {
+    margin: 0 auto;
+    position: relative;
+    /*height: 50vh;*/
+    width: 50vw;
+}
+
+#modal {
+    display: none;
+}
+
+.close_modal {
+    display: none;
+}

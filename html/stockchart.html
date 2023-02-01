@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+ 
+<head>
+    <meta charset="utf-8">
+    <title>Chart.js のサンプル</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css" />
+​   <link rel="stylesheet" href="../css/stockchart.css">
+</head>
+<body>
+    <a href="#modal" class="show">銘柄選択</a>
+    
+    <div id="modal">
+        <form id="index">
+            
+            
+        </form>
+        <button id="btn">選択した銘柄の株価を表示する</button>
+    </div>
+    
+    <div class="chart-container">
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    
+    
+<!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    
+
+<!-- jqueryのプラグイン -->
+    <!-- modal -->
+    <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"
+        integrity="sha256-e8kfivdhut3LQd71YXKqOdkWAG1JKiOs2hqYJTe0uTk=" crossorigin="anonymous"></script>
+    
+        
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.js"
+        integrity="sha256-8AdWdyRXkrETyAGla9NmgkYVlqw4MOHR6sJJmtFGAYQ=" crossorigin="anonymous"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"
+        integrity="sha512-mf78KukU/a8rjr7aBRvCa2Vwg/q0tUjJhLtcK53PHEbFwCEqQ5durlzvVTgQgKpv+fyNMT6ZQT1Aq6tpNqf1mg=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@1.8.0/dist/chartjs-plugin-streaming.min.js"
+        integrity="sha256-wqXny6qh3ioeH5yAUB6xPVTJ/EcNaHOR1HvuSZuEFXU=" crossorigin="anonymous"></script>
+        
+    
+
+
+<!-- オリジナル -->
+    <script type="text/javascript" src="../javascript/stockchart.js">
+    
+        
+    </script>
+    
+    
+</body>
